@@ -1,3 +1,4 @@
+import { Text } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 import apiClient from "../services/api-client";
 
