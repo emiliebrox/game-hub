@@ -7,7 +7,7 @@ interface Props {
   rating: number;
 }
 
-const Emoji = ({ rating }) => {
+const Emoji = ({ rating }: Props) => {
   if (rating < 3) return null;
 
   const emojiMap: { [key: number]: ImageProps } = {
